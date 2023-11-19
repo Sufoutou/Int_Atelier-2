@@ -1,23 +1,4 @@
-# Flat Markdown Site
-Simple single file site generated from a markdown content. 
+# Groupe : VAZ Paul, DUPIS Romain, HENRY Matteo
 
-## Prerequisites
-Install pandoc using the appropriate package manager for your OS. For example, from ubuntu :
-```
-sudo apt update -y
-sudo apt install -y pandoc
-```
+<img width="454" alt="image" src="https://github.com/Sufoutou/Int_Atelier-2/assets/95049219/0becd578-cd47-4a55-ad3e-18474de3ec99">
 
-## Generate site
-The site can be built with :
-```
-pandoc -s index.md --template _template_.html -o index.html
-```
-
-The downloadable docx file can be generated using :
-```
-pandoc -s index.md index.docx
-```
-
-## Authors
-Sylvain L.
